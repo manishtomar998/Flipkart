@@ -1,0 +1,21 @@
+#outer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: dodgerblue;
+    padding: 2% 0 2% 0;
+    color: white;
+    font-size: large;
+}
+.top{
+    color: white;
+    text-decoration: none;
+}
+#explore{
+    font-size: larger;
+}
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px;
+}

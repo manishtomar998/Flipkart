@@ -4,23 +4,29 @@
     <title>
         Flipkart Online shopping
     </title>
+    <link rel="stylesheet" href="./CSS/home.css" />
 </head>
 
-<body>
-    <div>
-        <label for="search">
-            Flipkart explore
-        </label>
-        <input type="search" placeholder="search for products" id="search" />
+<body onload="addProducts()">
+    <div id="outer">
+        <div id="explore">
+            <label for="search">
+                Flipkart explore
+            </label>
+            <input type="search" placeholder="search for products" id="search" />
+        </div>
+        <div>
+            <a class="top" href="./Pages/login.html">Login</a>
+        </div>
+        <div>
+            <a class="top" href="./Pages/SignUp.html">Sign up</a>
+        </div>
+        <div>
+            <a class="top" href="./Pages/cart.html">My Cart</a>
+        </div>
     </div>
-    <div>
-        <a href="./Pages/login.html">Login</a>
-    </div>
-    <div>
-        <a href="./Pages/SignUp.html">Sign up</a>
-    </div>
-    <div>
-        <a href="./Pages/cart.html">My Cart</a>
+    <div id="home">
+
     </div>
     <script src="./javascript/home.js"></script>
 </body>
