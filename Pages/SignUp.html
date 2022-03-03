@@ -4,12 +4,52 @@
     <title>
         Sign up Flipkart
     </title>
+    <link rel="stylesheet" href="../CSS/SignUp.css" />
 </head>
 
 <body>
-    <div>
-
+    <div id="outer">
+        <form onsubmit="registerId(event)">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div class="forAll">
+                    <label for="name">
+                        Name
+                    </label>
+                    <input id="name" placeholder="Please enter" type="text" required />
+                </div>
+                <div class="forAll">
+                    <label for="phoneNumber">
+                        Phone Number
+                    </label>
+                    <input id="phoneNumber" type="number" required placeholder="9876543210" />
+                </div>
+                <div class="forAll">
+                    <label for="password">
+                        Password
+                    </label>
+                    <input id="password" placeholder="******" type="password" required />
+                </div>
+                <div class="forAll">
+                    <label for="cnfmPassword">
+                        Confirm Password
+                    </label>
+                    <input id="cnfmPassword" type="password" required placeholder="******" />
+                </div>
+                <div id="buttn" class="forAll">
+                    <button id="btn" type="submit">
+                        Register
+                    </button>
+                </div>
+                <div class="forAll">
+                    <label for="already">
+                        Already a member <a id="anchor" href="./login.html">Log in</a>
+                    </label>
+                </div>
+            </fieldset>
+        </form>
     </div>
+    <script src="../javascript/signUp.js"></script>
 </body>
 
 </html>
