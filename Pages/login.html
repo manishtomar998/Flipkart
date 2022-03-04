@@ -2,36 +2,43 @@
 
 <head>
     <title>
-        Login to shopping world
+        Login to shop
     </title>
     <link rel="stylesheet" href="../CSS/login.css" />
 </head>
 
 <body>
     <div>
-        <label for="email">
-            Email
-        </label>
-        <input type="email" placeholder="abc@xyz.com" id="email" />
+        <form onsubmit=submitForm(event)>
+            <fieldset>
+                <legend>Log in</legend>
+                <div class="forall">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="email" placeholder="abc@xyz.com" id="email" />
+                </div>
+                <div class="forall">
+                    <label for="password">
+                        Password
+                    </label>
+                    <input type="password" id="password" placeholder="********" />
+                </div>
+                <div id="btton" class="forall">
+                    <button id="btn" type="submit">
+                        Log in
+                    </button>
+                </div>
+                <div class="forall">
+                    <p>
+                        Not a member? <a id="signUp" href="./SignUp.html">Sign up</a>
+                    </p>
+
+                </div>
+            </fieldset>
+        </form>
     </div>
-    <div>
-        <label for="password">
-            Password
-        </label>
-        <input type="password" id="password" placeholder="********" />
-    </div>
-    <div>
-        <button onclick="submit()">
-            Log in 
-        </button>
-    </div>
-    <div>
-        <p>
-            Not a member? <a href="./SignUp.html">Sign up</a>
-        </p>
-        
-    </div>
-    <script src="../home.html"></script>
+    <script src="../javascript/login.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,36 @@
+fieldset{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5%;
+    border-radius: 10px;
+}
+legend{
+    font-size: x-large;
+    color: dodgerblue;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.forAll{
+    padding: 5%;
+    margin: 5%;
+    font-size: large;
+    color: dodgerblue;
+}
+#signUp{
+    text-decoration: none;
+}
+#btn{
+    padding: 7% 30% 7% 30%;
+    background-color: orangered;
+    color: white;
+    font-size: large;
+    border-radius: 8px;
+}
+#btton{
+    display: flex;
+    justify-content: center;
+}

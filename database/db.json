@@ -1,6 +1,10 @@
 {
     "users": [
-        {}
+        {
+            "email": "vikrant@123",
+            "password": "vikrant",
+            "id": 1
+        }
     ],
     "products": [
         {
@@ -87,5 +91,8 @@
             "image": "https://www.pngarts.com/files/3/Nike-Running-Shoes-Free-PNG-Image.png",
             "id": 12
         }
+    ],
+    "cart": [
+        {}
     ]
 }

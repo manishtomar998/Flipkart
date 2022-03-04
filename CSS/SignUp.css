@@ -9,7 +9,7 @@ fieldset{
 form{
     display: flex;
     justify-content: center;
-    margin: 5%;
+    margin: 3%;
 
 }
 .forAll{
@@ -17,6 +17,9 @@ form{
     margin: 4% 0 4% 0;
     color: dodgerblue;
     font-size: large;
+    display: flex;
+    width: 100%;
+    justify-content:space-between ;
 }
 legend{
     font-size: x-large;
