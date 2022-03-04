@@ -1,98 +1,117 @@
 {
-    "users": [
-        {
-            "email": "vikrant@123",
-            "password": "vikrant",
-            "id": 1
-        }
-    ],
-    "products": [
-        {
-            "item": "iphone 11",
-            "price": 49999,
-            "Description": "Made in California",
-            "image": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
-            "id": 1
-        },
-        {
-            "item": "iphone 12",
-            "price": 59999,
-            "Description": "Made in California",
-            "image": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
-            "id": 2
-        },
-        {
-            "item": "iphone 6",
-            "price": 19999,
-            "Description": "Made in California",
-            "image": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
-            "id": 3
-        },
-        {
-            "item": "iphone 5s",
-            "price": 24999,
-            "Description": "Made in California",
-            "image": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
-            "id": 4
-        },
-        {
-            "item": "Sachin's Bat",
-            "price": 999,
-            "Description": "Made in Banaras",
-            "image": "https://www.freepngimg.com/thumb/cricket/31767-6-cricket-bat-hd.png",
-            "id": 5
-        },
-        {
-            "item": " Cricket Bat",
-            "price": 1999,
-            "Description": "Made in Banaras",
-            "image": "https://www.freepngimg.com/thumb/cricket/31767-6-cricket-bat-hd.png",
-            "id": 6
-        },
-        {
-            "item": "Dhoni's Bat",
-            "price": 2999,
-            "Description": "Made in Lahore",
-            "image": "https://www.freepngimg.com/thumb/cricket/31767-6-cricket-bat-hd.png",
-            "id": 7
-        },
-        {
-            "item": "Levi's Jeans",
-            "price": 2999,
-            "Description": "Made in Russia",
-            "image": "https://www.pngmart.com/files/16/Skinny-Jeans-PNG-Transparent-Image.png",
-            "id": 8
-        },
-        {
-            "item": "Gucci Jeans",
-            "price": 5999,
-            "Description": "Made in Russia",
-            "image": "https://www.pngmart.com/files/16/Skinny-Jeans-PNG-Transparent-Image.png",
-            "id": 9
-        },
-        {
-            "item": "Woodland Jeans",
-            "price": 6999,
-            "Description": "Made in Russia",
-            "image": "https://www.pngmart.com/files/16/Skinny-Jeans-PNG-Transparent-Image.png",
-            "id": 10
-        },
-        {
-            "item": "Nike",
-            "price": 7999,
-            "Description": "Made in Texas",
-            "image": "https://www.pngarts.com/files/3/Nike-Running-Shoes-Free-PNG-Image.png",
-            "id": 11
-        },
-        {
-            "item": "Nike Ronaldo",
-            "price": 20999,
-            "Description": "Made in Spain",
-            "image": "https://www.pngarts.com/files/3/Nike-Running-Shoes-Free-PNG-Image.png",
-            "id": 12
-        }
-    ],
-    "cart": [
-        {}
-    ]
+  "users": [
+    {
+      "name": "vikrant@123",
+      "number": "5465",
+      "password": "vikrant",
+      "id": 1
+    },
+    {
+      "name": "Manish Tomar",
+      "number": "435345",
+      "password": "g",
+      "id": 2
+    },
+    {
+      "name": "mayank",
+      "number": "3424234324",
+      "password": "1",
+      "id": 3
+    },
+    {
+      "name": "ddsd",
+      "number": "453",
+      "password": "a",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "item": "iphone 11",
+      "price": 49999,
+      "Description": "Made in California",
+      "image": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
+      "id": 1
+    },
+    {
+      "item": "iphone 12",
+      "price": 59999,
+      "Description": "Made in California",
+      "image": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
+      "id": 2
+    },
+    {
+      "item": "iphone 6",
+      "price": 19999,
+      "Description": "Made in California",
+      "image": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
+      "id": 3
+    },
+    {
+      "item": "iphone 5s",
+      "price": 24999,
+      "Description": "Made in California",
+      "image": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png",
+      "id": 4
+    },
+    {
+      "item": "Sachin's Bat",
+      "price": 999,
+      "Description": "Made in Banaras",
+      "image": "https://www.freepngimg.com/thumb/cricket/31767-6-cricket-bat-hd.png",
+      "id": 5
+    },
+    {
+      "item": " Cricket Bat",
+      "price": 1999,
+      "Description": "Made in Banaras",
+      "image": "https://www.freepngimg.com/thumb/cricket/31767-6-cricket-bat-hd.png",
+      "id": 6
+    },
+    {
+      "item": "Dhoni's Bat",
+      "price": 2999,
+      "Description": "Made in Lahore",
+      "image": "https://www.freepngimg.com/thumb/cricket/31767-6-cricket-bat-hd.png",
+      "id": 7
+    },
+    {
+      "item": "Levi's Jeans",
+      "price": 2999,
+      "Description": "Made in Russia",
+      "image": "https://www.pngmart.com/files/16/Skinny-Jeans-PNG-Transparent-Image.png",
+      "id": 8
+    },
+    {
+      "item": "Gucci Jeans",
+      "price": 5999,
+      "Description": "Made in Russia",
+      "image": "https://www.pngmart.com/files/16/Skinny-Jeans-PNG-Transparent-Image.png",
+      "id": 9
+    },
+    {
+      "item": "Woodland Jeans",
+      "price": 6999,
+      "Description": "Made in Russia",
+      "image": "https://www.pngmart.com/files/16/Skinny-Jeans-PNG-Transparent-Image.png",
+      "id": 10
+    },
+    {
+      "item": "Nike",
+      "price": 7999,
+      "Description": "Made in Texas",
+      "image": "https://www.pngarts.com/files/3/Nike-Running-Shoes-Free-PNG-Image.png",
+      "id": 11
+    },
+    {
+      "item": "Nike Ronaldo",
+      "price": 20999,
+      "Description": "Made in Spain",
+      "image": "https://www.pngarts.com/files/3/Nike-Running-Shoes-Free-PNG-Image.png",
+      "id": 12
+    }
+  ],
+  "cart": [
+    {}
+  ]
 }

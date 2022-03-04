@@ -10,11 +10,11 @@ let submitForm = (event) => {
 }
 
 let user = (res, loginEmail, loginPassword) => {
-    let person = res.filter(data => data.email === loginEmail)
+    let person = res.filter(data => data.name === loginEmail)
     if (person.length == 0) {
         alert("User not found");
     } else if (person[0].password == loginPassword) {
-        location.replace("../home.html")
+        location.replace("../home.html");
     } else {
         alert("wrong password");
     }

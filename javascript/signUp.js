@@ -4,27 +4,22 @@ let registerId = (event) => {
     let number = document.getElementById("phoneNumber").value;
     let password = document.getElementById("password").value;
     let confirmPassword = document.getElementById("cnfmPassword").value;
-    result = passCheck(password, confirmPassword);
-
-    let Id = {
-        name: name,
-        number: number,
-        password: password,
-    }
-    let data = {
-        body: JSON.stringify(Id),
-        method: "post",
-        headers: {
-            "content-type": "application/json"
+    if (passCheck(password, confirmPassword)) {
+        let userData = {
+            name: name,
+            number: number,
+            password: password,
         }
+        let data = {
+            body: JSON.stringify(userData),
+            method: "post",
+            headers: {
+                "content-type": "application/json"
+            }
+        }
+        fetch("http://localhost:3000/users", data);
+        location.replace("../Pages/login.html");
     }
-    let user = fetch("http://localhost:3000/users").then(response => {
-        response.text().then(res => {
-            let final = JSON.parse(res)
-            console.log(final);
-        })
-    })
-   
 }
 let passCheck = (password, confirmPassword) => {
     if (password !== confirmPassword) {
